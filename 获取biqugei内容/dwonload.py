@@ -27,4 +27,3 @@ def download(articleid,chapterid):
         linkNextStr = str(linkNext[0]).split('/')
         articleid = linkNextStr[2]
         chapterid = linkNextStr[3].split('.')[0]
-# download('99462','5619522');
