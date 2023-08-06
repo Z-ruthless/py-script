@@ -5,7 +5,7 @@ from lxml import etree
 headers = {'User-Agent':"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36"}
 http = 'http://www.biqugei.net/read/'
 postHttp = 'http://www.biqugei.net/api/reader_js.php'
-filePath = 'C:\\Users\\无情\\Desktop\\1.txt'
+filePath = '小说保存在自己电脑上的位置，从盘符开始'
 def download(articleid,chapterid):
     while True:
         # 获取章节信息
